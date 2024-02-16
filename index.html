@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <h1>SEMANA 4 - 2 </h1>
+    <!--  <div class="box">
+        <h2>Estoy en la caja</h2>
+    </div> -->
+    <section>
+        <ol>
+            <div>
+                <li>
+                    <h2>
+                        Box Model
+                    </h2>
+                </li>
+                <h3>
+                    <span>Esta definida en el navegador como una caja rectangular, esta es la forma en que se
+                        representan todos los elementos.</span>
+                </h3>
+                <div class="box">
+                    <p>Box Model</p>
+                </div>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Padding
+                    </h2>
+                </li>
+                <h3>
+                    <span>Es una separación o espacio interior que existe entre el contenido y el borde de la
+                        caja.</span>
+                </h3>
+                <span>Ejemplo:<br></span>
+                <span class="example">
+                    padding-top: 10px;<br>
+                    padding-right: 20px;<br>
+                    padding-bottom: 25px;<br>
+                    padding-left: 5px;<br>
+                    Los 4 valores son igual a esto: <br>
+                    padding: 10px 20px 25px 5px;<br>
+                    padding: 80px; Aplica a los cuatro lados <br>
+                    padding: 10px 20px; vertical | horizontal <br>
+                    padding: 10px 20px 30px; top | horizontal | bottom <br>
+                </span>
+                <div class="padding-box">
+                    <p>Padding Box</p>
+                </div>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Border
+                    </h2>
+                </li>
+                <h3>
+                    <span>El borde es la línea que rodea la caja, es como la frontera que rodea al elemento, esta se
+                        utiliza para darle una apariencia estética a la caja.</span>
+                </h3>
+                <span>Ejemplo:<br></span>
+                <span class="example">
+                    border-width: 5px 10px 15px 20px;<br>
+                    border-style: solid dashed dotted double;<br>
+                    border-color: red green blue brown;<br>
+                </span>
+                <div class="border-box">
+                    <p>Border Box</p>
+                </div>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Margin
+                    </h2>
+                </li>
+                <h3>
+                    <span>El margen es la última área del Box Model y se puede ver como una separación invisible o transparente que ayuda a separar un elemento de otro.</span>
+                </h3>
+                <span>Ejemplo:<br></span>
+                <span class="example">
+                    margin-top:    10px; <br>
+                    margin-right:  20px; <br>
+                    margin-bottom: 25px; <br>
+                    margin-left:   5px;  <br>
+                    Los 4 valores son igual a esto:<br>
+                    margin: 10px 20px 25px 5px;<br> 
+                    margin: 10px;          Aplica a los cuatro lados<br>
+                    margin: 10px 20px;     vertical | horizontal<br>
+                    margin: 10px 20px 30px; top | horizontal | bottom <br>
+                </span>
+                <div class="margin-box">
+                    <p>Margin Box</p>
+                </div>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Selector Universal
+                    </h2>
+                </li>
+                <h3>
+                    <span>Selecciona todos los elementos en un documento.</span>
+                </h3>
+                <span>Ejemplo:<br></span>
+                <span>* o *|* { propiedades de estilo } - selecciona todos los elementos:<br></span>
+                <span>
+                   *{ box-sizing: border-box;}
+                </span>
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Margenes Negativos
+                    </h2>
+                </li>
+                <h3>
+                    <span>Son valores negativos que se establecen en la propiedad de los margenes de un elemento.</span>
+                </h3>
+
+                <span>Ejemplo:<br></span>
+                <span>
+                    margin-top:    -10px; <br>
+                    margin-right:  -20px; <br>
+                    margin-bottom: -25px; <br>
+                    margin-left:   -5px;  <br>
+                    Los 4 valores son igual a esto:<br>
+                    margin: -10px -20px -25px -5px;<br> 
+                    margin: -10px;          Aplica a los cuatro lados<br>
+                    margin: -10px -20px;     vertical | horizontal<br>
+                    margin: -10px -20px -30px; top | horizontal | bottom <br>
+                </span>
+                 
+            </div>
+
+            <div>
+                <li>
+                    <h2>
+                        Colapsado de Margenes Verticales
+                    </h2>
+                </li>
+                <h3>
+                    <span>Son elementos de bloque de HTML que tienen márgenes verticales que se chocan entre sí, estos dos márgenes colapsan en uno o se fusionan entre sí, y aquí dominará el de mayor valor.</span>
+                </h3>
+
+                <span>Ejemplo:<br></span>
+                <span class="example">
+                    .box-1 {<br>
+                        margin-bottom: 100px; ⬅<br>
+                        padding: 20px;<br>
+                        border: solid 5px red;<br>
+                    }<br>
+                    .box-2 {<br>
+                        margin-top: 40px; ⬅<br>
+                        padding: 20px;<br>
+                        border: solid 5px blue;<br>
+                    }<br> 
+                    span {<br>
+                        font-weight: bold;<br>
+                    }<br>
+                </span>
+                <span>
+                    El que domina es el box-1
+                </span>
+                <div class="box red">
+                    <p>Margin Box</p>
+                </div>
+                <div class="box skyblue">
+                    <p>Margin Box</p>
+                </div>
+            </div>
+        </ol>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+} 
+
+span {
+    font-weight: normal;
+    font-size: medium;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    background-color: skyblue;
+    border: 10px solid white;
+    padding: 20px;
+}
+
+.padding-box{
+    width: 400px;
+    height: 200px;
+    background-color: skyblue;
+    border: 10px solid white;
+    padding: 80px; 
+}
+
+.border-box{
+    width: 400px;
+    height: 200px;
+    background-color: skyblue; 
+    border-width: 50px 100px 50px 100px;
+    border-style: solid;
+    border-color: skyblue;
+}
+
+.margin-box{
+    width: 400px;
+    height: 200px;
+    background-color: skyblue; 
+    margin: 10px 20px 25px 5px;
+}
+
+.red{
+    background-color: red;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+}
+
+.skyblue{
+    background-color: skyblue;
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.example{
+    line-height: 30px;
+}
